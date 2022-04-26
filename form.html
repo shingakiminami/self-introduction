@@ -5,48 +5,87 @@
 
 <link href="css/form.css" rel="stylesheet">
 
-<title>Contact | お問い合わせ </title>
+<title>Contact | お問い合わせ</title>
+
+<link rel="stylesheet" type="text/css" media="all" href="css/reset.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/common.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/about.css">
+<link href='https://fonts.googleapis.com/css?family=Lato:100,700,400'
+	rel='stylesheet' type='text/css'>
+
+<link rel="icon" href="IMG/favicon.ico">
 </head>
 
 <body>
 
-	<p class="lead-form">―　CONTACT　―</p>
-	<p>phpの使い方を習っていないので、形状のお問い合わせフォームとなっています。<br>
-	感想などあれば、こちらにお願いします☻ </p><br>
-	<div class="form">
-		<a href="https://forms.gle/b89itac7Dw3VwFYBA">CONTACT</a>
+	<!-- header -->
+	<header>
+		<h1 id="logo">
+			<a href="index.html"><img src="IMG/ホームアイコン.jpg" alt="ホームアイコン"></a>
+		</h1>
+		<nav>
+			<ul class="cf">
+				<li class="about"><a href="my_profile.html">Profile</a></li>
+				<li class="works"><a href="Home_town.html">Home town</a></li>
+				<li class="blog"><a href="Favorite.html">Favorite</a></li>
+				<li class="contact"><a href="form.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<ul class="socialBtn">
+			<!--
+			-->
+			<li><a href="https://www.instagram.com/rabicoco2/?hl=ja"
+				target="_blank"><img
+					src="https://u-d-l.jp/wp-content/themes/underline/common/icon_instagram.gif"
+					alt="Instagram"></a></li>
+		</ul>
+	</header>
+
+
+
+
+	<p class="lead-form">― CONTACT ―</p>
+	<p>
+		phpの使い方を習っていないので、形状のお問い合わせフォームとなっています。<br> 感想などあれば、こちらにお願いします☻
+	</p>
+	<br>
+	<div class="link">
+		<a href="https://forms.gle/b89itac7Dw3VwFYBA">こちらをクリック！</a>
 	</div>
 
-<form>
+	<div class="main">
 
-  <div class="item">
-    <label class="label">お名前</label>
-    <input class="inputs" type="text" name="name">
-  </div>
+		<div class="item">
+			<label class="label">お名前</label> <input class="inputs" type="text"
+				name="name">
+		</div>
 
-  <div class="item">
-    <label class="label">メールアドレス</label>
-    <input class="inputs" type="email" name="email">
-  </div>
+		<div class="item">
+			<label class="label">メールアドレス</label> <input class="inputs"
+				type="email" name="email">
+		</div>
 
-  <div class="item">
-    <p class="label">サイトについて</p>
-    <div class="inputs">
-    <input id="good" type="radio" name="menu" value="good"><label for="good">素敵！</label>
-    <input id="bad" type="radio" name="menu" value="bad"><label for="bad">まだまだいけるぞ！</label>
-    </div>
-  </div>
+		<div class="item">
+			<p class="label">サイトについて</p>
+			<div class="inputs">
+				<input id="good" type="radio" name="menu" value="good"><label
+					for="good">素敵！</label> <input id="bad" type="radio" name="menu"
+					value="bad"><label for="bad">まだまだいけるぞ！</label>
+			</div>
+		</div>
 
-  <div class="item">
-    <label class="label">コメント☻</label>
-    <textarea class="inputs" placeholder="ここには自由にコメントを記入してください"></textarea>
-  </div>
+		<div class="item">
+			<label class="label">コメント☻</label>
+			<textarea class="inputs" placeholder="ここには自由にコメントを記入してください"></textarea>
+		</div>
 
-  <div class="btn-area">
-    <input type="submit" value="送信"><input type="reset" value="リセット">
-  </div>
+		<div class="btn-area">
+			<input type="submit" value="送信"><input type="reset"
+				value="リセット">
+		</div>
 
-</form>
+	</div>
 
 </body>
 </html>

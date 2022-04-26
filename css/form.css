@@ -7,7 +7,7 @@
 }
 
 
-form{
+.main{
   width:330px;
   margin:0 auto;
 }
@@ -57,7 +57,7 @@ textarea{
 }
 
 
-input[type="submit"],a{
+input[type="submit"]{
   background: #e0505c;
   border: none;
   color: white;
@@ -84,6 +84,17 @@ p{
 }
 
 
-.form{
+.link{
 	text-align: center;
+
+}
+.link a{
+	color: deeppink;
+	background: #aaa;
+  	border: none;
+  	color: white;
+  	font-size:17px;
+  	font-weight:bold;
+  	padding: 10px 20px;
+  	margin: 0 5px;
 }
