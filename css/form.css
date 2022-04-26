@@ -16,6 +16,7 @@ form{
 .item{
   overflow: hidden;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 
@@ -56,7 +57,7 @@ textarea{
 }
 
 
-input[type="submit"]{
+input[type="submit"],a{
   background: #e0505c;
   border: none;
   color: white;
@@ -79,5 +80,10 @@ input[type="reset"]{
 
 p{
 	text-align: center;
-  font-size:10px;
+  	font-size:10px;
+}
+
+
+.form{
+	text-align: center;
 }
